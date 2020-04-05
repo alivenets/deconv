@@ -1,0 +1,37 @@
+﻿---
+#
+# My clang-format file
+#
+
+BasedOnStyle: WebKit
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakTemplateDeclarations: true
+BraceWrapping:
+  AfterClass: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Custom
+BreakConstructorInitializers: AfterColon
+ColumnLimit: 120
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ContinuationIndentWidth: 8
+Cpp11BracedListStyle: true
+FixNamespaceComments: true
+ForEachMacros:
+  - json_array_foreach
+  - json_object_foreach
+  - BOOST_FOREACH
+  - foreach
+IndentCaseLabels: true
+NamespaceIndentation: None
+PenaltyBreakAssignment: 40
+PenaltyBreakBeforeFirstCallParameter: 40
+PointerAlignment: Right
+TabWidth: 4
+...
